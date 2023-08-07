@@ -1,0 +1,56 @@
+/* styles.module.css */
+.document-sec-4 {
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }
+  
+  .document-sec-4 h2 {
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }
+  
+  @media (max-width: 767px) {
+    .document-sec-4 h2 {
+      margin-top: 30px;
+    }
+  }
+  
+  .document-sec-4 h4 {
+    margin-top: 20px;
+    margin-bottom: 1rem;
+  }
+  
+  .document-sec-4 ul {
+    margin-bottom: 25px;
+  }
+  
+  .document-sec-4 ul li {
+    line-height: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .document-sec-4 h6 {
+    line-height: 1.7rem;
+  }
+  
+  .qr-section {
+    padding: 2rem 0;
+  }
+  
+  .qr-section .circle-bullet li {
+    margin: 0.5rem 0 0.8rem 0;
+  }
+  
+  .qr-section h4 {
+    font-weight: 700;
+  }
+  
+  .qr-section h6 {
+    font-weight: 700;
+    margin-top: 20px;
+  }
+  
+  .qr-section li {
+    line-height: 2rem;
+  }
+  

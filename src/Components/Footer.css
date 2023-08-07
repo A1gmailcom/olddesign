@@ -1,0 +1,102 @@
+/* Footer */
+.footer {
+    border-top: 1px solid #dee2e6;
+    background: #FCFCFD;
+  }
+  
+  .footer ul {
+    list-style: none;
+    padding: 0rem;
+  }
+  
+  .footer ul li a {
+    font-size: 0.85rem;
+    text-decoration: none;
+    color: #474545;
+    line-height: 2.5;
+    font-weight: 500;
+    transition: all .4s ease;
+  }
+  
+  .footer ul li a:hover {
+    color: rgba(var(--brand-primary));
+  }
+  
+  .h4, h4 {
+    font-size: 0.9rem;
+    font-weight: 300;
+    padding: 1rem 0;
+    line-height: 1.5;
+  }
+  
+  .h6, h6 {
+    font-size: 1rem;
+    font-weight: 700;
+    padding-bottom: 0.2rem;
+    text-transform: capitalize;
+  }
+  
+  .bold {
+    font-weight: 700;
+  }
+  
+  /* Copy */
+  .copy {
+    border-top: 1px solid #dee2e6;
+    font-size: 0.72rem;
+    color: #605F5F;
+  }
+  
+  .copy.cookies {
+    text-align: right;
+  }
+  
+  .copy a {
+    text-decoration: none;
+    color: #f9d572 !important;
+  }
+  
+  /* Social Media Links */
+  .social-media-links {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: -6px;
+    margin-bottom: 20px;
+  }
+  
+  .social-media-links img {
+    object-fit: contain;
+    transition: 0.1s ease;
+  }
+  
+  .social-media-links img:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Newsletter */
+  .newsletter p {
+    font-size: 0.750rem;
+  }
+  
+  .newsletter form {
+    position: relative;
+  }
+  
+  .newsletter form button {
+    border: none;
+    font-size: 24px;
+    position: absolute;
+    top: 6px;
+    right: 7px;
+    background: #000;
+    color: #fff;
+    transition: all 0.4s ease;
+    border-radius: var(--border-radius);
+    line-height: 1;
+    padding: 5px;
+  }
+  
+  .newsletter form button:hover {
+    background: rgb(var(--brand-primary));
+  }

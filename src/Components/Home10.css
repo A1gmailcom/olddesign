@@ -1,0 +1,21 @@
+Home10.module.css
+.slider-section2 {
+    color: white;
+  }
+  
+  .slider-section2 h2 {
+    color: white;
+    font-weight: 700;
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .slider-section2 .text-len {
+    max-width: 350px;
+  }
+  
+  .slider-section2 .bottom-part {
+    margin-top: 40px;
+  }
+  
